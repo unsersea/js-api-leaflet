@@ -16,6 +16,8 @@ const location_find_icon_url = '';
 
 const tileLayer = '';
 
+
+
 function load_google() {
     
 }
