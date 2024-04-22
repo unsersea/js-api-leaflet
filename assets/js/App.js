@@ -1,4 +1,4 @@
-let map, marker, circle, zoom;
+let marker, circle, zoom;
 
 var search = '';
 var api = '';
@@ -14,10 +14,17 @@ const google_sat = 'http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}';
 const location_icon_url = '';
 const location_find_icon_url = '';
 
-const tileLayer = '';
+const map = L.map('leaflet-map');
 
+const tileLayer = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 
+$(document).ready(function() {
+    //
+    function load_google() {
+        
+    }
 
-function load_google() {
-    
-}
+    load_google();
+
+    //
+});
